@@ -22,7 +22,7 @@ public class StudentController {
             System.out.println(student);
         }
     }
-    // Mã học viên có dạng HV-xxxx
+    // Mã học viên có dạng HV-XXXX
     public final static String CODE_REGEX = "^HV-[0-9]{4}$";
     // Tên học viên không chứa ký tự đặc biệt
     public final static String NAME_REGEX = "^[a-zA-Z\\s]+$";
